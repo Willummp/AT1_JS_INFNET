@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+  width: 100%;
+	background-color:#fdc9de ;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Nerko One', cursive;
+	text-align: center;
+
+}
+header{
+	color: white;
+	font-size: 32px;
+	text-shadow: 1px 1px 2px black;
+}
+
+#sJogadorDaVez{
+	color: #fd589a ;
+}
+.tile_row {
+    width: 100%;
+	display: flex;
+}
+
+.tile_row .tile {
+	display: flex;
+  	width: 100px;
+	height: 100px;
+	background-color: #d06791;
+	margin: 2px;
+	font-size: 64px;
+	align-items: center;
+	justify-content: center;
+
+
+}
+.tile:hover{
+	background-color: #d680a2;
+	cursor: pointer;
+}
+
+.tile_disabled{
+	display: flex;
+  width: 100px;
+	height: 100px;
+	background-color:#f4a9c7;
+	margin: 2px;
+	color: white;
+	font-size: 64px;
+	font-weight: bold;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.20);
+}
+#resultado{
+	color: #52e585;
+	font-size: 48px;
+}
+
+#tile_1{
+	border-radius: 6px 0px  0px 0px
+}
+#tile_3{
+	border-radius: 0px 6px  0px 0px
+}
+#tile_7{
+	border-radius: 0px 0px 0px 6px
+}
+#tile_9{
+	border-radius: 0px 0px 6px 0px
+}
